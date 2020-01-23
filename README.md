@@ -9,6 +9,7 @@ Le projet a eu une **pré-soutenance** ([fichier latex](https://github.com/Mentr
 [Le dossier](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/tree/master/csv) contenant les **fichiers .csv** du projet. (créés automatiquement par le fichier netlogo du projet).
 
 ## FONCTIONNEMENT DE LA SIMULATION : 
+![](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Screen.PNG)
 *Vous pouvez ralentir a tout moment la simulation grace a la barre de controle de vitesse en haut de netlogo.* 
 
 **Setup** permet de mettre en place la scene (ne pas appuyer sur setup pendant une simulation).  
