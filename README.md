@@ -1,34 +1,48 @@
-# Projet-Scientifique-Informatique-L2
-### Ce projet est fait en [Netlogo](https://fr.wikipedia.org/wiki/NetLogo). Il a consisté à créer une simulation d'un incendie dans une salle de spectale.
+# PSI-L2 Fire simulation
+## Context
+This project was done in [Netlogo](https://fr.wikipedia.org/wiki/NetLogo). It consisted in creating a simulation of a fire in a cinema.
 
-Le **rapport de projet** ([pdf](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Rapport/Rapport.pdf) / [latex](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Rapport/Rapport.tex)) fait en [Latex](https://fr.wikipedia.org/wiki/LaTeX). Ainsi que mon [**rapport personnel**](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/journal_perso_Martin-dEscrienne.pdf).  
+## Documents
 
-Le projet a eu une **pré-soutenance** ([fichier latex](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Presentation1/Presentation.tex) / [fichier pdf](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Presentation1/Presentation.pdf)) puis une **présentation finale** ([fichier latex](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Presentation2/Presentation_finale.tex) / [fichier pdf](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Presentation2/Presentation_finale.pdf)).  
+The **project report** ([latex](./Rapport/Rapport.tex) / [pdf](./Rapport/Rapport.pdf)) made in [Latex](https://fr.wikipedia.org/wiki/LaTeX).   
+My [**personal report**](journal_perso_Martin-dEscrienne.pdf) in the project.  
+**Intermediate presentation slides** ([latex](./Presentation1/Presentation.tex) / [pdf](./Presentation1/Presentation.pdf))  
+**Final Presentation slide** ([latex](./Presentation2/Presentation_finale.tex) / [pdf](./Presentation2/Presentation_finale.pdf)).  
 
-[**Le fichier Netlogo.**](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Projet.nlogo)  
-[Le dossier](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/tree/master/csv) contenant les **fichiers .csv** du projet. (créés automatiquement par le fichier netlogo du projet).
+Video of simulation are available in **Presentation 2** folder.
 
-## FONCTIONNEMENT DE LA SIMULATION : 
-![](https://github.com/Mentra20/Projet-Scientifique-Informatique-L2/blob/master/Screen.PNG)
-*Vous pouvez ralentir a tout moment la simulation grace a la barre de controle de vitesse en haut de netlogo.* 
+[csv folder](/csv) contain the project's **.csv** results files. (created automatically by the project's).
 
-* **Setup** permet de mettre en place la scène (ne pas appuyer sur setup pendant une simulation).  
+## How to run the project
 
-* **Go** permet de lancer la simulation pas à pas (appuyer sur go record pour une simulation continue).  
+[Download NetLogo](https://ccl.northwestern.edu/netlogo/download.shtml) and run [Projet.nlogo](Projet.nlogo)
 
-* **Simuloop , Simuloop graphe et Go record** servent pour les fichiers .csv.  
+## How simulation works 
+![](Presentation2/Screen.PNG)
 
-* **Densité** augmente ou diminue le nombre de personnes dans le cinéma.  
+_You can slow down the simulation at any time using the speed control bar at the top of netlogo._ 
 
-* **NB_EXIT** correspond au nombre de sorties du cinéma.  
+* **Setup** allows you to set up the scene (do not press setup during a simulation).  
 
-* **CenterExit** met une seule sortie au millieu de la salle et **wall** place un mur devant ou non.  
+* **Go** starts the simulation step by step (press go record for continuous simulation).  
 
-* **Fire on** place ou non un feu qui se propage dans la salle. 
+* **Simuloop , Simuloop graph and Go record** are used for .csv files.  
 
-* **fire_start** place le feu a certain endroit selon sa valeur (0 démarre n'importe où dans la salle, 1 seulement en bas de la salle, 2 seulement dans les bancs de la salle).  
+* **Density** increases or decreases the number of people in the cinema.  
 
-* **surpopulation** ajoute encore plus de personnes dans la simulation (utile pour les effets d'une unique entrée au centre).  
+* **NB_EXIT** corresponds to the number of cinema exits.  
 
-* **TerrosistOn** Un bonus (non present dans la presentation et rapport) qui transforme un personnage en terroriste (rose) qui se place au centre et explose provoquant alors un incendie. 
+* **CenterExit** places a single exit in the middle of the cinema and **wall** places a wall in front or not.  
 
+* **Fire on** may or may not place a fire in the cinema . 
+
+* **fire_start** places the fire in a certain place according to its value (0 starts anywhere in the room, 1 only at the bottom of the room, 2 only in the benches of the room).  
+
+* **Overpopulation** adds even more people to the simulation (useful for the effects of a single entrance in the center).  
+
+* **TerrosistOn** A bonus (not present in the presentation and report) that turns a character into a terrorist (pink) who stands in the center and explodes, causing a fire. 
+
+## Screenshots
+![](Presentation2/capture_obstacle.PNG)
+![](Presentation2/Capture_sortie.PNG)
+![](Presentation2/capture_feu.PNG)
